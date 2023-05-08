@@ -27,4 +27,4 @@ If you find any issues with this app or have suggestions for improvements, pleas
 
 ## Credits
 
-This app was developed by [Your Name].
+This app was developed by William David - willicali40@hotmail.com.
