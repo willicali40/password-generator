@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator </title>
+    <link rel="icon" type="image/x-icon" href="./assets/password.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="container__info">
+            <p>Select your password length</p>
+            <div class="btns">
+            <input class="btnsSelectors" type="button" value="8" id="btn8">
+            <input class="btnsSelectors" type="button" value="12" id="btn12">
+            <input class="btnsSelectors" type="button" value="16" id="btn16">
+            </div>
+            <div class="container__info-password">
+                <span id="completedPassword"></span>
+            </div>
+            <p>Copy your password.</p>
+            <input class="generator" type="button" value="Click to Generate" id="btn">
+        </div>
+        <footer>
+            <img src="./assets/trademark.png" alt="Copy Right icon">
+            <p> William David - willicali40@hotmail.com</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
